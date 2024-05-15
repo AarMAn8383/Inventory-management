@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,11 @@
             margin: 0;
             padding: 0;
         }
-        /* Добавьте остальные стили здесь */
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
@@ -27,19 +30,12 @@
                 <li>Реализованы классы <code>Product</code>, <code>ElectronicsProduct</code>, <code>ClothingProduct</code> для представления различных типов товаров в инвентаре.</li>
                 <li>Созданы классы <code>InventoryInflow</code> и <code>InventoryOutflow</code> для представления операций поступления и расхода товаров.</li>
             </ul>
-            <!-- Добавьте остальные пункты описания здесь -->
         </ol>
+        
+        <hr>
         
         <h2>Примечания:</h2>
         <p>Этот проект разработан с использованием принципов объектно-ориентированного программирования (ООП) и обеспечивает легкость поддержки и расширения функциональности. Структура проекта и принятые архитектурные решения описаны в документации к проекту.</p>
     </div>
 </body>
 </html>
-<title>Управление инвентарем</title>
-    <style>
-        /* Ваши стили CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
