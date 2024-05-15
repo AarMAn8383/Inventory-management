@@ -1,5 +1,5 @@
-# Spring Boot 3.0 Security with JWT Implementation
-This project demonstrates the implementation of security using Spring Boot 3.0 and JSON Web Tokens (JWT). It includes the following features:
+# Inventory management
+This project is an inventory management application developed in the Java language. It provides a set of functions for tracking the receipt and consumption of goods, inventory management, and generating reports on the availability of goods.
 
 ## Features
 * User registration and login with JWT authentication
