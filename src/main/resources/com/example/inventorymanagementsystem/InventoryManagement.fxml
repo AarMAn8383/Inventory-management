@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.inventorymanagementsystem.InventoryManagementController"
+      spacing="10" padding="10">
+
+    <TableView fx:id="itemTable">
+        <columns>
+            <TableColumn text="Name" fx:id="nameColumn"/>
+            <TableColumn text="Quantity" fx:id="quantityColumn"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <TextField fx:id="nameInput" promptText="Name" minWidth="200"/>
+        <TextField fx:id="quantityInput" promptText="Quantity"/>
+        <Button text="Add Item" onAction="#addItem"/>
+        <Button text="Remove Item" onAction="#removeItem"/>
+        <Button text="Add Stock" onAction="#addStock"/>
+        <Button text="Sell Stock" onAction="#sellStock"/>
+        <Button text="Check Stock" onAction="#checkStock"/>
+        <Button text="Notify Low Stock" onAction="#notifyLowStock"/>
+        <Button text="Generate Type Report" onAction="#generateTypeReport"/>
+        <Button text="Generate Total Report" onAction="#generateTotalReport"/>
+    </HBox>
+
+</VBox>

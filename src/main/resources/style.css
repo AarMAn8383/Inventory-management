@@ -1,0 +1,17 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+#itemTable {
+    -fx-pref-height: 300px;
+    -fx-min-height: 300px;
+}
+
+.button {
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px;
+}
