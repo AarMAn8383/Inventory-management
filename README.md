@@ -2,20 +2,10 @@
 This project is an inventory management application developed in the Java language. It provides a set of functions for tracking the receipt and consumption of goods, inventory management, and generating reports on the availability of goods.
 
 ## Features
-* User registration and login with JWT authentication
-* Password encryption using BCrypt
-* Role-based authorization with Spring Security
-* Customized access denied handling
-* Logout mechanism
-* Refresh token
+* 
 
 ## Technologies
-* Spring Boot 3.0
-* Spring Security
-* JSON Web Tokens (JWT)
-* BCrypt
-* Maven
- 
+* 
 ## Getting Started
 To get started with this project, you will need to have the following installed on your local machine:
 
@@ -25,7 +15,7 @@ To get started with this project, you will need to have the following installed 
 
 To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git`
+* Clone the repository: 
 * Navigate to the project directory: cd spring-boot-security-jwt
 * Add database "jwt_security" to postgres 
 * Build the project: mvn clean install
